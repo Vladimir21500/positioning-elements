@@ -1,5 +1,5 @@
 *{
-    box-sizing: unset;
+    box-sizing: border-box;
 }
 .square {
     width: 100px;
@@ -17,7 +17,7 @@
   }
   .container{
       float: left;
-      width: 47%;
+      width: 50%;
   }
   .red{
       float: right;
