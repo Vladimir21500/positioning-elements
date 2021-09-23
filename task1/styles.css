@@ -39,7 +39,7 @@ div {
   
   .container {
     height: 2000px;
-    position: absolute;
+    /* position: absolute; */
   }
 
   .static-parent{
