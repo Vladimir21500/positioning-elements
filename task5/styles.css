@@ -8,27 +8,38 @@ header {
   width: 100%;
   z-index: 1;
 }
+.navigation{
+    line-height: 40px;
+}
 .nav-list {
   margin: 0px;
   height: 40px;
+  list-style: none;
+  
 }
 .nav-item {
+    
+    height: 40px;
   margin-left: 16px;
   float: left;
   color: white;
-  margin-top: 9px;
+  /* margin-top: 11px; */
+  
 }
 .content {
+    position: absolute;
   background-color: beige;
   height: 5000px;
+  width: 100%;
 }
 .head {
     background-color: aquamarine;
     height: 200px;
     width: 200px;
-    position: absolute;
-    left: 691.5px;
-    top: 173.5px;   
+    position: absolute;  
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+
 }
 .ear{
     width: 40px;
