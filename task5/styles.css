@@ -18,7 +18,8 @@ header {
   
 }
 .nav-item {
-    
+
+
     height: 40px;
   margin-left: 16px;
   float: left;
@@ -27,7 +28,7 @@ header {
   
 }
 .content {
-    position: absolute;
+    /* position: absolute; */
   background-color: beige;
   height: 5000px;
   width: 100%;
